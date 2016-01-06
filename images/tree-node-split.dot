@@ -1,0 +1,7 @@
+digraph {
+    root[label="(X, Y)"]
+    left[label="(X1, Y1)"]
+    right[label="(X2, Y2)"]
+    root -> left;
+    root -> right;
+}

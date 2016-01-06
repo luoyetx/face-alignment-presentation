@@ -1,0 +1,16 @@
+digraph bt {
+  t1[label="Tree-1"]
+  t2[label="Tree-2"]
+  t3[label="..."]
+  t4[label="Tree-K"]
+  t5[label="..."]
+  t6[label="Tree-N"]
+  res[shape="box", label="  "]
+
+  t1 -> res;
+  t2 -> res;
+  t3 -> res;
+  t4 -> res;
+  t5 -> res;
+  t6 -> res;
+}
